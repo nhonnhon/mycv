@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nhonnhon/mycv/static/css/main.6ad820f3.chunk.css",
+    "main.js": "/nhonnhon/mycv/static/js/main.ba2bfe2d.chunk.js",
+    "main.js.map": "/nhonnhon/mycv/static/js/main.ba2bfe2d.chunk.js.map",
+    "runtime-main.js": "/nhonnhon/mycv/static/js/runtime-main.167b71b7.js",
+    "runtime-main.js.map": "/nhonnhon/mycv/static/js/runtime-main.167b71b7.js.map",
+    "static/js/2.dc5c44a4.chunk.js": "/nhonnhon/mycv/static/js/2.dc5c44a4.chunk.js",
+    "static/js/2.dc5c44a4.chunk.js.map": "/nhonnhon/mycv/static/js/2.dc5c44a4.chunk.js.map",
+    "index.html": "/nhonnhon/mycv/index.html",
+    "precache-manifest.6a16e2bda271fe4cea9b4d7dfbd74a70.js": "/nhonnhon/mycv/precache-manifest.6a16e2bda271fe4cea9b4d7dfbd74a70.js",
+    "service-worker.js": "/nhonnhon/mycv/service-worker.js",
+    "static/css/main.6ad820f3.chunk.css.map": "/nhonnhon/mycv/static/css/main.6ad820f3.chunk.css.map",
+    "static/media/avatar.jpg": "/nhonnhon/mycv/static/media/avatar.49b10c7b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.167b71b7.js",
+    "static/js/2.dc5c44a4.chunk.js",
+    "static/css/main.6ad820f3.chunk.css",
+    "static/js/main.ba2bfe2d.chunk.js"
+  ]
+}
