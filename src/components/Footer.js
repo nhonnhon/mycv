@@ -26,11 +26,11 @@ export class Footer extends React.PureComponent {
       <div className="container">
         <div className="footer">
           <div className="row">
-            <div className="col-md-8">
+            <div className="col-xs-8">
               <div>{language.footerTitle}</div>
             </div>
-            <div className="col-md-4">
-              <div className="d-flex justify-content-end">
+            <div className="col-xs-4">
+              <div className="d-flex justify-sm-content-end">
                 <div className={lang === 'vn' ? 'active' : ''} onClick={() => this.changeLang('vn')}>
                   <strong>{language.footerLanguageVN}</strong>
                 </div>

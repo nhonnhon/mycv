@@ -30,7 +30,7 @@ const langEN = {
   timelinePeriod3: 'Sep 2017 – Sep 2018',
   timelineTitle3: 'Infodation Company',
   timeLineDesc3:
-    'FrontEnd Developer using HTML/CSS/Javascript/NodeJs/Angular/Selenium to develop a automation product and website',
+    'FrontEnd Developer using HTML/CSS/Javascript, NodeJs/Angular/Selenium to develop a automation product and website',
   timelinePeriod4: 'Sep 2018 – Present',
   timelineTitle4: 'Aleph-Labs Company',
   timeLineDesc4:
@@ -70,7 +70,7 @@ const langVN = {
   timelinePeriod3: '9/2017 – 9/2018',
   timelineTitle3: 'Công ty Infodation',
   timeLineDesc3:
-    'Lập trình viên Front End sử dụng các ngôn ngữ HTML/CSS/Javascript/NodeJs/Angular/Selenium để phát triển hệ thống tự động và giao diện website',
+    'Lập trình viên Front End sử dụng các ngôn ngữ HTML/CSS/Javascript, NodeJs/Angular/Selenium để phát triển hệ thống tự động và giao diện website',
   timelinePeriod4: '9/2018 – Hiện nay',
   timelineTitle4: 'Công ty Aleph-Labs',
   timeLineDesc4:

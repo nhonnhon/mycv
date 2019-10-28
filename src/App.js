@@ -14,13 +14,13 @@ import Home from 'pages/Home'
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Switch>
-          <Route path="/" exact>
+      {/* <BrowserRouter> */}
+        {/* <Switch> */}
+          {/* <Route path="/" exact> */}
             <Home />
-          </Route>
-        </Switch>
-      </BrowserRouter>
+          {/* </Route> */}
+        {/* </Switch> */}
+      {/* </BrowserRouter> */}
     </div>
   )
 }
