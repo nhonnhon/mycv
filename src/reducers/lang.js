@@ -4,7 +4,7 @@ const langEN = {
   fullName: 'Nguyen Vi Nhon',
   aboutMe: 'About Me',
   summary:
-    'I have had working more than 3 years in Front End developer using: HTML/CSS/Javascript, React/React-Native.',
+    'I have had working more than 3 years in Front End developer using: HTML/CSS/Javascript, React/React-Native. Also I have knownlegde and worked in Angular and Nodejs',
   hobbies: 'Hobbies: ',
   hobbies1: 'I like to play some sports: football, badminton,...',
   hobbies2: 'When I have freetime I like to watch movies, read book, travel, go drinking with friends,...',
@@ -19,6 +19,12 @@ const langEN = {
   skype: 'Skype: vinhon.nguyen',
   birthday: 'Birthday: 24 October 1993',
   linkedin: 'LinkedIn',
+  skills: 'Skills',
+  htmlCss: 'HTML/HTML5 - CSS/CSS3',
+  javascript: 'Javascript',
+  react: 'React',
+  reactNative: 'React Native',
+  angular: 'Angular',
   expericence: 'EXPERIENCES',
   timelinePeriod1: '2011 - 2015',
   timelineTitle1: 'Student at Nha Trang University',
@@ -30,7 +36,7 @@ const langEN = {
   timelinePeriod3: 'Sep 2017 – Sep 2018',
   timelineTitle3: 'Infodation Company',
   timeLineDesc3:
-    'FrontEnd Developer using HTML/CSS/Javascript, NodeJs/Angular/Selenium to develop a automation product and website',
+    'FrontEnd Developer using HTML/CSS/Javascript, NodeJs/Angular/Selenium to develop automation products and websites',
   timelinePeriod4: 'Sep 2018 – Present',
   timelineTitle4: 'Aleph-Labs Company',
   timeLineDesc4:
@@ -44,7 +50,7 @@ const langVN = {
   fullName: 'Nguyễn Vĩ Nhơn',
   aboutMe: 'Giới thiệu',
   summary:
-    'Front End developer với kinh nghiệm hơn 3 năm, lập trình ngôn ngữ: HTML/CSS/Javascript, React/React-Native',
+    'Front End developer với kinh nghiệm hơn 3 năm, lập trình ngôn ngữ: HTML/CSS/Javascript, React/React-Native. Đã từng tìm hiểu và sử dụng ngôn ngữ Angular và Nodejs',
   hobbies: 'Sở thích: ',
   hobbies1: 'Chơi các môn thể thao: đá banh, cầu lông,...',
   hobbies2: 'Đọc sách, xem phim, du lịch,...',
@@ -59,6 +65,12 @@ const langVN = {
   skype: 'Skype: vinhon.nguyen',
   birthday: 'Ngày sinh: 24/10/1993',
   linkedin: 'LinkedIn',
+  skills: 'Kĩ năng',
+  htmlCss: 'HTML/HTML5 - CSS/CSS3',
+  javascript: 'Javascript',
+  react: 'React',
+  reactNative: 'React Native',
+  angular: 'Angular',
   expericence: 'KINH NGHIỆM',
   timelinePeriod1: '2011 - 2015',
   timelineTitle1: 'Sinh viên trường đại học Nha Trang',
@@ -80,8 +92,32 @@ const langVN = {
   footerLanguageVN: 'Tiếng Việt',
 }
 
+const skills = [
+  {
+    title: 'htmlCss',
+    percent: 90
+  },
+  {
+    title: 'javascript',
+    percent: 80
+  },
+  {
+    title: 'react',
+    percent: 80
+  },
+  {
+    title: 'reactNative',
+    percent: 75
+  },
+  {
+    title: 'angular',
+    percent: 50
+  }
+]
+
 const initialState = {
   language: langEN,
+  skills
 }
 
 export default function lang(state = initialState, { type }) {
