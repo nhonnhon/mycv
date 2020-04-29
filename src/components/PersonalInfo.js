@@ -21,7 +21,6 @@ export class PersonalInfo extends React.PureComponent {
 }
 
 const mapStateToProps = ({ lang }) => {
-  console.log(lang)
   return {
     language: lang.language,
     skills: lang.skills

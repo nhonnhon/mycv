@@ -1,5 +1,5 @@
 import React from 'react'
-import { PersonalInfo, Timeline, Footer } from 'components'
+import { PersonalInfo, Timeline, Footer, Project } from 'components'
 
 class Home extends React.PureComponent {
   render() {
@@ -13,6 +13,9 @@ class Home extends React.PureComponent {
             <div className="col-md-8">
               <Timeline />
             </div>
+          </div>
+          <div className="project-done pt-2">
+            <Project />
           </div>
         </div>
         <Footer />

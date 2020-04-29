@@ -4,7 +4,7 @@ const langEN = {
   fullName: 'Nguyen Vi Nhon',
   aboutMe: 'About Me',
   summary:
-    'I have had working more than 3 years in Front End developer using: HTML/CSS/Javascript, React/React-Native. Also I have knownlegde and worked in Angular and Nodejs',
+    'I have had working more than 4 years in Front End developer using: HTML/CSS/Javascript, React/React-Native. Also I have knownlegde and worked in Angular and Nodejs',
   hobbies: 'Hobbies: ',
   hobbies1: 'I like to play some sports: football, badminton,...',
   hobbies2: 'When I have freetime I like to watch movies, read book, travel, go drinking with friends,...',
@@ -25,6 +25,7 @@ const langEN = {
   react: 'React',
   reactNative: 'React Native',
   angular: 'Angular',
+  vuejs: 'Basic Vuejs',
   expericence: 'EXPERIENCES',
   timelinePeriod1: '2011 - 2015',
   timelineTitle1: 'Student at Nha Trang University',
@@ -41,16 +42,24 @@ const langEN = {
   timelineTitle4: 'Aleph-Labs Company',
   timeLineDesc4:
     'ReactJS Developer using React/React-Native/Redux to develop website and application for mobile. Onsite 3 months in Thailand',
-  footerTitle: 'This site is built by me using ReactJS and public on Github',
+  footerTitle: 'This site is built using ReactJS and public on Github',
   footerLanguageEN: 'English',
   footerLanguageVN: 'Vietamese',
+  projectName: 'Project name',
+  time: 'Time',
+  description: 'Description',
+  role: 'Role',
+  size: 'Size',
+  technology: 'Technology',
+  projectDone: 'Some projects I have done',
+  andMore: 'and more...'
 }
 
 const langVN = {
   fullName: 'Nguyễn Vĩ Nhơn',
   aboutMe: 'Giới thiệu',
   summary:
-    'Front End developer với kinh nghiệm hơn 3 năm, lập trình ngôn ngữ: HTML/CSS/Javascript, React/React-Native. Đã từng tìm hiểu và sử dụng ngôn ngữ Angular và Nodejs',
+    'Front End developer với kinh nghiệm hơn 4 năm, lập trình ngôn ngữ: HTML/CSS/Javascript, React/React-Native. Đã từng tìm hiểu và sử dụng ngôn ngữ Angular và Nodejs',
   hobbies: 'Sở thích: ',
   hobbies1: 'Chơi các môn thể thao: đá banh, cầu lông,...',
   hobbies2: 'Đọc sách, xem phim, du lịch,...',
@@ -71,6 +80,7 @@ const langVN = {
   react: 'React',
   reactNative: 'React Native',
   angular: 'Angular',
+  vuejs: 'Basic Vuejs',
   expericence: 'KINH NGHIỆM',
   timelinePeriod1: '2011 - 2015',
   timelineTitle1: 'Sinh viên trường đại học Nha Trang',
@@ -90,6 +100,14 @@ const langVN = {
   footerTitle: 'Website này được viết sử dụng ReactJS và lưu trữ trên Github',
   footerLanguageEN: 'Tiếng Anh',
   footerLanguageVN: 'Tiếng Việt',
+  projectName: 'Tên dự án',
+  time: 'Thời gian',
+  description: 'Mô tả',
+  role: 'Vai trò',
+  size: 'Size',
+  technology: 'Ngôn ngữ',
+  projectDone: 'Một số dự án đã hoàn thành',
+  andMore: 'và một số dự án khác...'
 }
 
 const skills = [
@@ -111,13 +129,53 @@ const skills = [
   },
   {
     title: 'angular',
-    percent: 50
+    percent: 40
+  },
+  // {
+  //   title: 'vuejs',
+  //   percent: 20
+  // },
+]
+
+const projects = [
+  {
+    name: 'Muang Thai Life Application.',
+    time: '10 months',
+    description: 'In the app, introduce about company, insurance packages, .... User login with their account, see detail package, can buy or sell package, can invest to the insurance packages, ...',
+    role: 'React native developer',
+    // size: '10 (3 FE, 4 BE, 1 QC, 1 PM, 1 DM)',
+    technology: 'FE: React Native and Redux, BE: Java'
+  },
+  {
+    name: 'Muang Thai Life Website.',
+    time: '1 year',
+    description: 'In the web, introduce about company, insurance packages, .... User login with their account, see detail package, can buy or sell package, can invest to the insurance packages, ...',
+    role: 'React developer',
+    // size: '6 (2 FE, 2 FE, 1 QC, 1 PM)',
+    technology: 'FE: React JS and Redux, BE: Java'
+  },
+  {
+    name: 'Innaway',
+    time: '6 months',
+    description: 'CMS for hotel input their infomation and chatbot messenger facebook to help booking and show information of hotel',
+    role: 'Frontend Developer',
+    // size: '5 (1 FE, 2 BE, 1 Tester, 1 TeachLead)',
+    technology: 'FE: HTML/CSS/Angular, BE: Laravel'
+  },
+  {
+    name: 'Product ITMS',
+    time: '4 months',
+    description: 'A tool in atlassian for automation test, input scenarios and tool read scenario and run automation test.',
+    role: 'Frontend Developer',
+    // size: '3 (1 FE, 2 BE)',
+    technology: 'FE: HTML/CSS/Angular + Nodejs, BE: Ruby on Rails'
   }
 ]
 
 const initialState = {
   language: langEN,
-  skills
+  skills,
+  projects
 }
 
 export default function lang(state = initialState, { type }) {
