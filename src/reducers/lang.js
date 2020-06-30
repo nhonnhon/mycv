@@ -33,15 +33,18 @@ const langEN = {
   timelinePeriod2: 'Sep 2015 – Sep 2017',
   timelineTitle2: 'CO2 Company',
   timeLineDesc2:
-    'FrontEnd Developer using HTML/CSS/Javascript to convert design to website, animation and responsive website',
+    'FrontEnd Developer convert design to website, make animation and responsive website',
+  timeLineLanguageDesc2: 'Language: HTML/CSS/Javascript, Jquery, Bootstrap and some libraries to make website like design',
   timelinePeriod3: 'Sep 2017 – Sep 2018',
   timelineTitle3: 'Infodation Company',
   timeLineDesc3:
-    'FrontEnd Developer using HTML/CSS/Javascript, NodeJs/Angular/Selenium to develop automation products and websites',
+    'FrontEnd Developer develop automation products on Atlassian and develop websites',
+  timeLineLanguageDesc3: 'Language: HTML/CSS/Angular, Bootstrap and some libraries, work with API to make website like design. Use NodeJs and Selenium to develop an automation tool.',
   timelinePeriod4: 'Sep 2018 – Present',
   timelineTitle4: 'Aleph-Labs Company',
   timeLineDesc4:
-    'ReactJS Developer using React/React-Native/Redux to develop website and application for mobile. Onsite 3 months in Thailand',
+    'FrontEnd Developer develop website for desktop version and application for mobile version. Onsite 3 months in Thailand',
+  timeLineLanguageDesc4: 'Develop website using React JS, develop mobile app using React Native. Language: ReactJS/ReactNative/Redux',
   footerTitle: 'This site is built using ReactJS and public on Github',
   footerLanguageEN: 'English',
   footerLanguageVN: 'Vietamese',

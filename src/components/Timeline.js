@@ -18,6 +18,7 @@ export class Timeline extends React.PureComponent {
                 <div className="info-period">
                   <h3>{language[`timelineTitle${item}`]}</h3>
                   <p>{language[`timeLineDesc${item}`]}</p>
+                  <p>{language[`timeLineLanguageDesc${item}`]}</p>
                 </div>
               </li>
             ))}

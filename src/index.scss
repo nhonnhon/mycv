@@ -111,7 +111,7 @@ img {
     width: 2px;
     position: absolute;
     left: 50%;
-    top: 20px;
+    top: 70px;
     bottom: 100px;
     border-left: 2px dashed #000;
     margin-left: -1px;
@@ -128,12 +128,12 @@ img {
     z-index: 2;
     li {
       padding: 15px 30px;
-      margin-bottom: 80px;
+      margin-bottom: 30px;
       position: relative;
       &:before {
         content: '';
         position: absolute;
-        top: -45px;
+        top: -20px;
         left: 50%;
         width: 15px;
         height: 15px;
@@ -146,7 +146,7 @@ img {
         padding: 5px 0;
       }
       .period {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         display: inline-block;
       }
       .info-period,
